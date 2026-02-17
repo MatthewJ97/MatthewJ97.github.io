@@ -1,0 +1,334 @@
+/* ===== TAB NAVIGATION ===== */
+
+.tab-navigation {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+    padding: 10px 0;
+}
+
+.tab-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tab-item {
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s;
+    font-weight: 500;
+    color: #6b7280;
+    border-bottom: 3px solid transparent;
+    user-select: none;
+}
+
+.tab-item:hover {
+    background-color: #f9fafb;
+    color: #2563eb;
+}
+
+.tab-item.active {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+    background-color: #f9fafb;
+}
+
+.tab-item i {
+    margin-right: 8px;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== PROJECT FILTERS ===== */
+
+.project-filters {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: 2px solid #e5e7eb;
+    background: white;
+    color: #6b7280;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+.filter-btn:hover {
+    border-color: #2563eb;
+    color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+}
+
+.filter-btn.active {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+.filter-btn i {
+    margin-right: 6px;
+}
+
+/* Project Item Filtering */
+.project-item {
+    transition: all 0.3s ease;
+}
+
+.project-item.hidden {
+    display: none;
+}
+
+/* Project Category Badges */
+.project-category-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.category-game {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.category-vr {
+    background: #fce7f3;
+    color: #9f1239;
+}
+
+.category-vp {
+    background: #ede9fe;
+    color: #5b21b6;
+}
+
+.category-film {
+    background: #ffedd5;
+    color: #9a3412;
+}
+
+.category-pipeline {
+    background: #fef9c3;
+    color: #854d0e;
+}
+
+/* ===== DARK MODE - TABS ===== */
+
+body.dark-mode .tab-navigation {
+    background: #1a1a1a;
+    border-bottom-color: #3d3d3d;
+}
+
+body.dark-mode .tab-item {
+    color: #b0b0b0;
+}
+
+body.dark-mode .tab-item:hover {
+    background-color: #2d2d2d;
+    color: #64b5f6;
+}
+
+body.dark-mode .tab-item.active {
+    color: #64b5f6;
+    border-bottom-color: #64b5f6;
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .project-filters {
+    background: #2d2d2d;
+}
+
+body.dark-mode .filter-btn {
+    background: #1a1a1a;
+    border-color: #3d3d3d;
+    color: #b0b0b0;
+}
+
+body.dark-mode .filter-btn:hover {
+    border-color: #64b5f6;
+    color: #64b5f6;
+}
+
+body.dark-mode .filter-btn.active {
+    background: #64b5f6;
+    color: #1a1a1a;
+    border-color: #64b5f6;
+}
+
+/* Dark mode category badges */
+body.dark-mode .category-game {
+    background: #1e3a8a;
+    color: #93c5fd;
+}
+
+body.dark-mode .category-vr {
+    background: #831843;
+    color: #fbcfe8;
+}
+
+body.dark-mode .category-vp {
+    background: #3b0764;
+    color: #d8b4fe;
+}
+
+body.dark-mode .category-film {
+    background: #7c2d12;
+    color: #fed7aa;
+}
+
+body.dark-mode .category-pipeline {
+    background: #713f12;
+    color: #fef08a;
+}
+
+/* ===== RESPONSIVE - TABS ===== */
+
+@media (max-width: 768px) {
+    .tab-navigation {
+        position: static;
+    }
+
+    .tab-list {
+        gap: 5px;
+    }
+
+    .tab-item {
+        padding: 10px 16px;
+        font-size: 14px;
+        flex: 1;
+        text-align: center;
+        min-width: 100px;
+    }
+
+    .tab-item i {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .project-filters {
+        padding: 15px;
+    }
+
+    .filter-btn {
+        flex: 1;
+        min-width: calc(50% - 5px);
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-item {
+        padding: 8px 12px;
+        font-size: 12px;
+        min-width: 80px;
+    }
+
+    .filter-btn {
+        min-width: 100%;
+        font-size: 13px;
+    }
+}
+
+/* Filter count badge */
+.filter-count {
+    display: inline-block;
+    background: #e5e7eb;
+    color: #6b7280;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    margin-left: 6px;
+    font-weight: 600;
+}
+
+.filter-btn.active .filter-count {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+body.dark-mode .filter-count {
+    background: #3d3d3d;
+    color: #b0b0b0;
+}
+
+/* Empty state */
+#projects-container {
+    transition: height 0.3s ease;
+}
+
+.projects-empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #6b7280;
+}
+
+.projects-empty-state i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+
+.projects-empty-state h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.projects-empty-state p {
+    font-size: 14px;
+}
+
+body.dark-mode .projects-empty-state {
+    color: #b0b0b0;
+}
+
+/* ===== SIDEBAR BACKGROUND FIX =====
+   The sidebar uses a float-based layout so its background only extends
+   as tall as its content. Setting min-height: 100vh ensures the
+   background always fills the viewport without touching any layout
+   properties that would break the existing float/positioning.
+*/
+.sidebar-wrapper {
+    min-height: 100vh;
+}
