@@ -15,21 +15,26 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 0;                 /* remove spacing */
+    width: 100%;   
 }
 
 .tab-item {
-    padding: 12px 24px;
+    flex: 1;               /* each tab takes equal width */
+    text-align: center;   /* center icon + text */
+    padding: 16px 0;      /* taller buttons */
     cursor: pointer;
-    border-radius: 8px 8px 0 0;
+    border-radius: 0;     /* flat edges (optional) */
     transition: all 0.3s;
     font-weight: 500;
+    font-size: 22px;
     color: #6b7280;
     border-bottom: 3px solid transparent;
     user-select: none;
 }
-
+.tab-item:not(:last-child) {
+    border-right: 1px solid #e5e7eb;
+}
 .tab-item:hover {
     background-color: #f9fafb;
     color: #2563eb;
@@ -332,3 +337,36 @@ body.dark-mode .projects-empty-state {
 .sidebar-wrapper {
     min-height: 100vh;
 }
+
+.skillset {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px 24px; /* small row gap, comfortable column gap */
+    max-width: 720px;  /* optional: stops it going too wide */
+}
+
+.skillset .item {
+    padding: 4px 0;
+}
+
+.level-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    position: relative;
+    padding-left: 14px;
+    line-height: 1.2;
+    margin: 0;
+    white-space: normal; /* allow wrapping */
+}
+
+/* small accent dot */
+.level-title::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-size: 18px;
+    line-height: 1;
+}
+

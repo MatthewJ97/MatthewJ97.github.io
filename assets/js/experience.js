@@ -19,20 +19,7 @@ const experience = [
             "Support business development through publisher pitches, conferences, and community engagement"
         ]
     },
-    {
-        title: "Founder / Senior Programmer",
-        company: "Introverted Pixel",
-        companyLink: null,
-        location: "Sydney, Australia",
-        period: "October 2019 - Present",
-        current: true,
-        highlights: [
-            "Independent game development and technical consulting",
-            "Full-stack web development for specialized conversion tools",
-            "Cross-platform game deployment and optimization",
-            "Pipeline tool development for production workflows"
-        ]
-    },
+
     {
         title: "Senior UE4 Programmer",
         company: "Spectre Studios - Virtual Production & Design",
