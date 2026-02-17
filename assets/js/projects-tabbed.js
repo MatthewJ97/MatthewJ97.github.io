@@ -268,13 +268,16 @@ function renderProjects() {
         }).join('');
 
         // Build media (video takes priority over images)
-        let mediaHTML = '';
+        let videoHTML = '';
         if (project.video) {
-            mediaHTML = `
+            videoHTML = `
                 <div class="project-video">
-                    <iframe loading="lazy" src="${project.video}" frameborder="0" allowfullscreen></iframe>
+                    <iframe loading="lazy" src="${project.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>`;
-        } else if (project.images && project.images.length > 0) {
+        }
+        let mediaHTML = '';
+
+         if (project.images && project.images.length > 0) {
             if (project.images.length === 1) {
                 mediaHTML = `
                     <div class="project-image-single">
@@ -320,9 +323,10 @@ function renderProjects() {
                     ${categoryBadges ? `<div class="project-categories" style="margin-top:6px;">${categoryBadges}</div>` : ''}
                 </div><!--//meta-->
                 <div class="details">
+                    ${videoHTML}
                     ${mediaHTML}
                     <div class="item">
-                        <span class="details">Description:</span> ${project.description}
+                        <span class="details"></span> ${project.description}
                     </div>
                     <div class="item">
                         <span class="details">Skills Used:</span> ${project.skills}
