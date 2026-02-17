@@ -36,6 +36,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/XtftJ78oUgM",
         description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game. https://www.youtube.com/watch?v=XtftJ78oUgM",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
         link: "https://store.steampowered.com/app/2747060/Office_Fight/"
     },
@@ -52,6 +53,7 @@ const projects = [
         ],
         video: null,
         description: "Brawlers is a live auto-battler built in Unreal Engine that turns meme coin market data into real-time AI combat. Two fighters battle automatically while players place bets on the winner. The game streams from an AWS-hosted Unreal instance and uses WebSockets and HTTP APIs to drive fighters, levels, and AI decisions from live financial data.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Websockets, REST Apis, AWS, RTMP, Perforce",
         link: null
     },
@@ -68,6 +70,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed?v=EuBLQKNGT1I",
         description: "This project was a real-time virtual production trailer created for Zero Latency, combining Unreal Engine environments with live-action actors captured on an LED stage. The production used real-time sets and triggered in-world events during filming to allow the director to control scenes live on set.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
         link: "https://hyperepublic.com/portfolio/masked-wolf-astronaut-in-the-ocean/"
     },
@@ -84,6 +87,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
         description: "Imagine is an animated film project developed at FENIX Studios in collaboration with AIME. I was responsible for building the technical pipeline, and creating real-time tools inside Unreal Engine to improve artist workflows and production efficiency.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Animation, Sequencer",
         link: "https://imaginefilm.org/"
     },
@@ -100,6 +104,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed?v=u6PrJtzUKdA",
         description: "Worked on virtual production for the TV series La Brea, creating and maintaining real-time environments for LED volume stages. Provided live technical support to ensure smooth production playback.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
         link: "https://www.youtube.com/watch?v=u6PrJtzUKdA"
     },
@@ -120,6 +125,7 @@ const projects = [
         ],
         video: null,
         description: "Virtual reality paramedic training simulation. Built realistic emergency scenarios, interactive medical procedures, and comprehensive training modules to deliver an immersive first-responder training experience.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, C++, VR, Blueprint, Motion Capture",
         link: null
     },
@@ -136,6 +142,7 @@ const projects = [
         ],
         video: null,
         description: "Technical development for ZedRun, a digital horse racing and breeding platform. Worked on real-time race visualisation systems and character and animation pipelines.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, C++, Blueprint, Animation, Real-time Rendering",
         link: null
     },
@@ -152,6 +159,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed?v=zq92oNGHr8o",
         description: "Virtual production project for Ford's Auto Nights campaign. Designed and built real-time LED volume environments showcasing Ford vehicles in dynamic, cinematic settings using Unreal Engine.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Virtual Production, LED Volume, nDisplay, Lighting",
         link: null
     },
@@ -168,6 +176,7 @@ const projects = [
         ],
         video: null,
         description: "Virtual production environment for Masked Wolf's performance segment on The Tonight Show with Jimmy Fallon. Built real-time immersive backdrops and visual effects delivered via LED volume.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Virtual Production, LED Volume, Real-time VFX",
         link: null
     },
@@ -184,6 +193,7 @@ const projects = [
         ],
         video: null,
         description: "Virtual reality experience developed at Spectre Studios. Responsible for core VR interaction systems, environment development, and performance optimization for the target VR platforms.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, C++, VR, Blueprint, Interaction Systems",
         link: null
     },
@@ -200,6 +210,7 @@ const projects = [
         ],
         video: null,
         description: "Virtual production and film work for the Lah-Lah children's entertainment brand. Developed real-time environments and integrated animation pipelines for the production shoot.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, LED Volume",
         link: null
     },
@@ -216,6 +227,7 @@ const projects = [
         ],
         video: null,
         description: "Animated film project for Roborovski. Contributed to the real-time rendering pipeline and character animation systems using Unreal Engine as the primary production tool.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Animation, Rendering Pipeline, Sequencer",
         link: null
     },
@@ -232,6 +244,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed?v=H7CNn5FSGi0",
         description: "Designed and built the character pipeline for the Atmosfear board game CGI project. Created tooling and workflows covering rigging, animation export, and import into Unreal Engine to streamline the CGI render process.",
+        responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Python, Maya API, Pipeline Development, Character Rigging",
         link: "https://www.youtube.com/watch?v=H7CNn5FSGi0"
     }
@@ -327,6 +340,9 @@ function renderProjects() {
                     ${mediaHTML}
                     <div class="item">
                         <span class="details"></span> ${project.description}
+                    </div>
+                    <div class="item">
+                        <span class ="details"></span> ${project.responsibilities}
                     </div>
                     <div class="item">
                         <span class="details">Skills Used:</span> ${project.skills}
