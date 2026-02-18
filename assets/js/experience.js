@@ -10,7 +10,8 @@ const experience = [
         period: "August 2025 - Present",
         current: true,
         highlights: [
-            "Providing Programming and Technical support on a need by need basis"
+            "Providing Programming and Technical support on a need by need basis",
+            
         ]
     },
     {
@@ -35,8 +36,8 @@ const experience = [
     },
     {
         title: "Lead Programmer",
-        company: "Spectre Studios - Virtual Production & Design",
-        companyLink: "https://www.facebook.com/specvr/",
+        company: "Spectre Studios",
+        companyLink: "",
         location: "Sydney, Australia",
         period: "January 2022 - March 2023",
         current: false,
@@ -50,7 +51,7 @@ const experience = [
     },
     {
         title: "Mid Programmer",
-        company: "Spectre Studios - Virtual Production & Design",
+        company: "Spectre Studios",
         companyLink: "",
         location: "Sydney, Australia",
         period: "January 2020 - December 2021",
@@ -65,7 +66,7 @@ const experience = [
     },
         {
         title: "Junior Programmer",
-        company: "Spectre Studios - Virtual Production & Design",
+        company: "Spectre Studios",
         companyLink: "",
         location: "Sydney, Australia",
         period: "March 2018 - December 2019",
@@ -90,7 +91,7 @@ function renderExperience() {
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
-                        <h3 class="job-title">${job.title}</h3>
+                        <h2 class="job-title">${job.title}</h2>
                         <div class="time">${job.period}</div>
                     </div><!--//upper-row-->
                     <div class="company">

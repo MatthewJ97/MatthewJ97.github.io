@@ -48,8 +48,7 @@ const projects = [
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["game"],
         images: [
-            "assets/images/projects/brawlers/brawlers-1.jpg",
-            "assets/images/projects/brawlers/brawlers-2.jpg"
+            
         ],
         video: null,
         description: "Brawlers is a live auto-battler built in Unreal Engine that turns meme coin market data into real-time AI combat. Two fighters battle automatically while players place bets on the winner. The game streams from an AWS-hosted Unreal instance and uses WebSockets and HTTP APIs to drive fighters, levels, and AI decisions from live financial data.",
@@ -65,8 +64,6 @@ const projects = [
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["vp"],
         images: [
-            "assets/images/projects/zero-latency/zero-latency-1.jpg",
-            "assets/images/projects/zero-latency/zero-latency-2.jpg"
         ],
         video: "https://www.youtube.com/embed?v=EuBLQKNGT1I",
         description: "This project was a real-time virtual production trailer created for Zero Latency, combining Unreal Engine environments with live-action actors captured on an LED stage. The production used real-time sets and triggered in-world events during filming to allow the director to control scenes live on set.",
@@ -82,8 +79,6 @@ const projects = [
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["film"],
         images: [
-            "assets/images/projects/imagine/imagine-1.jpg",
-            "assets/images/projects/imagine/imagine-2.jpg"
         ],
         video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
         description: "Imagine is an animated film project developed at FENIX Studios in collaboration with AIME. I was responsible for building the technical pipeline, and creating real-time tools inside Unreal Engine to improve artist workflows and production efficiency.",
@@ -99,8 +94,6 @@ const projects = [
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["vp"],
         images: [
-            "assets/images/projects/la-brea/la-brea-1.jpg",
-            "assets/images/projects/la-brea/la-brea-2.jpg"
         ],
         video: "https://www.youtube.com/embed?v=u6PrJtzUKdA",
         description: "Worked on virtual production for the TV series La Brea, creating and maintaining real-time environments for LED volume stages. Provided live technical support to ensure smooth production playback.",
@@ -185,13 +178,11 @@ const projects = [
         title: "Project Tyrion",
         time: "2020 - 2021",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["vr"],
         images: [
-            "assets/images/projects/project-tyrion/tyrion-1.jpg",
-            "assets/images/projects/project-tyrion/tyrion-2.jpg"
         ],
-        video: null,
+        video: "https://x.com/BritishArmy/status/1450824187271131146",
         description: "Virtual reality experience developed at Spectre Studios. Responsible for core VR interaction systems, environment development, and performance optimization for the target VR platforms.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, C++, VR, Blueprint, Interaction Systems",
