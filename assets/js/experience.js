@@ -3,36 +3,34 @@
 
 const experience = [
     {
-        title: "Technical Director",
-        company: "FENIX Studios Australia",
+        title: "Freelance Programmer",
+        company: "",
         companyLink: null,
         location: "Sydney, New South Wales, Australia",
-        period: "April 2023 - Present",
+        period: "August 2025 - Present",
         current: true,
         highlights: [
-            "Define and execute the studio's technical vision, roadmap, and coding standards",
-            "Lead, mentor, and manage the programming team, fostering collaboration and growth",
-            "Architect and implement scalable, maintainable, and high-performance systems",
-            "Troubleshoot complex issues and optimize performance across platforms",
-            "Collaborate with artists, designers, and stakeholders to align technical solutions with creative goals",
-            "Oversee QA and testing frameworks to ensure product stability and quality",
-            "Support business development through publisher pitches, conferences, and community engagement"
+            "Providing Programming and Technical support on a need by need basis"
         ]
     },
-
     {
-        title: "Senior UE4 Programmer",
-        company: "Spectre Studios - Virtual Production & Design",
-        companyLink: "https://www.facebook.com/specvr/",
-        location: "Sydney, Australia",
-        period: "January 2022 - April 2023",
+        title: "Technical Director",
+        company: "FENIX Studios Australia",
+        companyLink: "https://www.fenixstudios.com.au/",
+        location: "Sydney, New South Wales, Australia",
+        period: "April 2023 - August 2025",
         current: false,
         highlights: [
-            "Led Unreal Engine development for commercial VR titles",
-            "Developed virtual production tools and workflows",
-            "Created custom render pipelines for 360 video capture",
-            "Integrated real-time motion capture systems (Rokoko)",
-            "Maintained IT infrastructure including Perforce version control"
+            "Define and execute the studio's technical vision, roadmap, and coding standards",
+            "Drive technical planning, task estimation, and risk assessment during pre-production and production phases",
+            "Lead, mentor, and manage the programming team, fostering collaboration and growth",
+            "Architect and implement scalable, maintainable, and high-performance systems",
+            "Oversee integration of third-party systems, plugins, and middleware into the Unreal Engine pipeline",
+            "Troubleshoot complex issues and optimize performance across platforms",
+            "Collaborate with artists, designers, and stakeholders to align technical solutions with creative goals",
+            "Support business development through publisher pitches, conferences, and community engagement",
+            "Ensure scalability and maintainability of systems to support evolving project requirements",
+            "Review and guide code architecture, refactors, and tech debt management",
         ]
     },
     {
@@ -40,16 +38,47 @@ const experience = [
         company: "Spectre Studios - Virtual Production & Design",
         companyLink: "https://www.facebook.com/specvr/",
         location: "Sydney, Australia",
-        period: "March 2018 - February 2022",
+        period: "January 2022 - March 2023",
         current: false,
         highlights: [
-            "Programmed VR applications: Emergisim (Paramedic Training), Nekrotronic VR (Film Tie-in Game)",
-            "Developed Maya scripts and environment tools for production pipeline",
-            "Built previs and LED virtual production systems",
-            "Handled project packaging and distribution across platforms",
-            "Managed PC upgrades, software installation, and Perforce administration"
+            "Lead the development of core gameplay and systems programming in C++ and Blueprints ",
+            "Collaborate with design and art teams to implement features that align with creative goals ",
+            "Manage and mentor a team of programmers, enforcing code quality and best practices",
+            "Optimize performance and memory usage across platforms",
+            "Contribute to technical planning, task breakdown, and code reviews "
+        ]
+    },
+    {
+        title: "Mid Programmer",
+        company: "Spectre Studios - Virtual Production & Design",
+        companyLink: "",
+        location: "Sydney, Australia",
+        period: "January 2020 - December 2021",
+        current: false,
+        highlights: [
+            "Develop and maintain gameplay features and systems using C++ and Blueprints ",
+            "Collaborate with designers and artists to implement game mechanics and tools ",
+            "Debug, profile, and optimize code for performance and stability ",
+            "Support integration of assets and systems into the Unreal Engine pipeline",
+            "Maintained IT infrastructure including Perforce version control"
+        ]
+    },
+        {
+        title: "Junior Programmer",
+        company: "Spectre Studios - Virtual Production & Design",
+        companyLink: "",
+        location: "Sydney, Australia",
+        period: "March 2018 - December 2019",
+        current: false,
+        highlights: [
+            "Develop and maintain gameplay features and systems using C++ and Blueprints ",
+            "Collaborate with designers and artists to implement game mechanics and tools ",
+            "Debug, profile, and optimize code for performance and stability ",
+            "Support integration of assets and systems into the Unreal Engine pipeline",
+            "Maintained IT infrastructure including Perforce version control"
         ]
     }
+
 ];
 
 // Function to render experience - don't need to edit this!
