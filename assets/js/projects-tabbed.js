@@ -26,7 +26,7 @@ const projects = [
         time: "2024",
         company: "FENIX Studios",
         companyLink: "https://animo.gg/#Games",
-        categories: ["game"],
+        categories: ["vp"],
         images: [
 
         ],
@@ -336,6 +336,7 @@ const categoryInfo = {
 
 function renderProjects() {
     const container = document.getElementById('projects-container');
+    const htmlArray = [];
 
     projects.forEach(project => {
 
@@ -345,7 +346,7 @@ function renderProjects() {
             return `<span class="project-category-badge ${info.color}">${info.name}</span>`;
         }).join('');
 
-        // Build media (video takes priority over images)
+        // Build media - video and images are shown independently
         let videoHTML = '';
         if (project.video) {
             // Extract video ID from embed URL: "https://www.youtube.com/embed/VIDEO_ID"
@@ -357,20 +358,20 @@ function renderProjects() {
                     <div class="yt-thumbnail">
                         <img src="${ytThumbnail}" alt="Watch ${project.title} on YouTube" onerror="this.style.display='none'">
                         <div class="yt-play-btn"><i class="fa fa-youtube-play"></i></div>
-                        <div class="yt-label"><i class="fa fa-youtube-play"></i> Watch video</div>
+                        <div class="yt-label"><i class="fa fa-youtube-play"></i> Watch on YouTube</div>
                     </div>
                 </a>`;
         }
-        let mediaHTML = '';
 
-         if (project.images && project.images.length > 0) {
+        let imageHTML = '';
+        if (project.images && project.images.length > 0) {
             if (project.images.length === 1) {
-                mediaHTML = `
+                imageHTML = `
                     <div class="project-image-single">
                         <img loading="lazy" class="img-responsive project-image" src="${project.images[0]}" alt="${project.title}" onerror="this.parentElement.style.display='none'">
                     </div>`;
             } else {
-                mediaHTML = `
+                imageHTML = `
                     <div class="project-gallery">
                         ${project.images.map((img, idx) => `
                             <img loading="lazy" class="gallery-image ${idx === 0 ? 'active' : ''}" src="${img}" alt="${project.title} ${idx + 1}" onerror="this.style.display='none'">
@@ -388,9 +389,11 @@ function renderProjects() {
             }
         }
 
+        const mediaHTML = videoHTML + imageHTML;
+
         const categoriesAttr = (project.categories || []).join(' ');
 
-        container.innerHTML += `
+        htmlArray.push(`
             <div class="item project-item" data-categories="${categoriesAttr}">
                 <div class="meta">
                     <div class="upper-row">
@@ -409,20 +412,35 @@ function renderProjects() {
                     ${categoryBadges ? `<div class="project-categories" style="margin-top:6px;">${categoryBadges}</div>` : ''}
                 </div><!--//meta-->
                 <div class="details">
-                    ${videoHTML}
                     ${mediaHTML}
                     <div class="item">
-                        <span class="details"></span> ${project.description}
-                    </div>
-                    <div class="item">
-                        <span class ="details"></span> ${project.responsibilities}
+                        <span class="details">Description:</span> ${project.description}
                     </div>
                     <div class="item">
                         <span class="details">Skills Used:</span> ${project.skills}
                     </div>
                 </div><!--//details-->
-            </div><!--//project-item-->`;
+            </div><!--//project-item-->`);
     });
+
+    // Set innerHTML once at the end (much faster than += in loop)
+    container.innerHTML = htmlArray.join('');
+    
+    // Apply initial filter to show all projects
+    // Use setTimeout to ensure filter buttons are initialized
+    setTimeout(() => {
+        if (typeof filterProjects === 'function') {
+            filterProjects('all');
+        }
+    }, 50);
+}
+
+// Show fallback if iframe fails to load
+function showVideoFallback(ytId, url) {
+    const fallback = document.getElementById(`fallback-${ytId}`);
+    const videoEl = document.getElementById(`video-${ytId}`);
+    if (fallback) fallback.style.display = 'flex';
+    if (videoEl) videoEl.querySelector('iframe').style.display = 'none';
 }
 
 // Gallery navigation
