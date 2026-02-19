@@ -172,7 +172,4 @@ document.addEventListener('keydown', function(e) {
 });
 
 // Console Easter Egg
-console.log('%c👋 Hey there!', 'font-size: 20px; font-weight: bold;');
-console.log('%cInterested in the code behind this portfolio?', 'font-size: 14px;');
-console.log('%cCheck out the source: https://github.com/MatthewJ97/Projects', 'font-size: 12px; color: #64b5f6;');
 console.log('%c🎮 Built with: Vanilla JS, Bootstrap, and a lot of ☕', 'font-size: 12px; color: #888;');
