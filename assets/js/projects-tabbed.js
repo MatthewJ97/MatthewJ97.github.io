@@ -26,7 +26,7 @@ const projects = [
         time: "2026",
         company: "Personal",
         companyLink: "",
-        categories: ["pipeline"],
+        categories: ["pipeline", "wip"],
         images: [
         ],
         video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
@@ -40,7 +40,7 @@ const projects = [
         time: "2026",
         company: "Personal",
         companyLink: "",
-        categories: ["game"],
+        categories: ["game", "wip"],
         images: [
         ],
         video: "",
@@ -244,20 +244,7 @@ const projects = [
         skills: "Unreal Engine 4, C++, VR, Blueprint, JALI, Sequencer, Branching Narrative",
         link: null
     },
-    {
-        title: "Lah-Lah",
-        time: "2020",
-        company: "Spectre Studios",
-        companyLink: "",
-        categories: ["vp"],
-        images: [
-        ],
-        video: "https://www.youtube.com/embed/RC2bKp-TrL4",
-        description: "Virtual production and film work for the Lah-Lah children's entertainment brand. Developed real-time environments and integrated animation pipelines for the production shoot.",
-        responsibilities: "",
-        skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, Greenscreen",
-        link: null
-    },
+
     {
         title: "Emergisim",
         time: "2019 - 2020",
@@ -275,7 +262,7 @@ const projects = [
     },
     {
         title: "Tales of Aluna",
-        time: "2020",
+        time: "2019",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["game"],
@@ -359,7 +346,7 @@ const categoryInfo = {
     vp:       { name: "Virtual Production", color: "category-vp" },
     film:     { name: "Film",               color: "category-film" },
     pipeline: { name: "Pipeline",           color: "category-pipeline" },
-   
+    wip:      { name: "WIP",                color: "category-wip" }
 };
 //work-in-progress: {name: "WIP", color: "category-"} -->
 // ============================================================
