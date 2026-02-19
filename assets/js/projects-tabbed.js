@@ -22,6 +22,48 @@ const projects = [
     // FENIX STUDIOS
     // --------------------------------------------------------
     {
+        title: "Story Editor Application",
+        time: "2026",
+        company: "Personal",
+        companyLink: "",
+        categories: ["pipeline"],
+        images: [
+        ],
+        video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
+        description: "An Application made for editing and privately publishing a book for users to read, The app contains the ability to make comments and highlight sections for the author to see when doing draft edits",
+        responsibilities: "",
+        skills: "NodeJS, HTML",
+        link: "https://imaginefilm.org/"
+    }, 
+    {
+        title: "Threadbreaker",
+        time: "2026",
+        company: "Personal",
+        companyLink: "",
+        categories: ["game"],
+        images: [
+        ],
+        video: "",
+        description: "A Turn Based Strategy game made in Unreal engine 5",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++",
+        link: ""
+    },
+    {
+        title: "Imagine",
+        time: "2025",
+        company: "FENIX Studios",
+        companyLink: "https://www.fenixstudios.com.au/",
+        categories: ["film"],
+        images: [
+        ],
+        video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
+        description: "Imagine is an animated film project developed at FENIX Studios in collaboration with AIME. I was responsible for building the technical pipeline, and creating real-time tools inside Unreal Engine to improve artist workflows and production efficiency.",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Animation, Sequencer",
+        link: "https://imaginefilm.org/"
+    },
+    {
         title: "Animo",
         time: "2025",
         company: "FENIX Studios",
@@ -33,57 +75,8 @@ const projects = [
         video: "https://x.com/Stake/status/1979306430214676856",
         description: "This work provided critical development continuity while the core team was on leave, ensuring production progress and system stability were maintained. The focus was on improving performance, usability, and long-term maintainability across both technical systems and character pipelines.",
         responsibilities: "",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics, Composure",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics, Composure, Producing, Team Management, Github",
         link: "https://animo.gg/#Games"
-    },
-    {
-        title: "OfficeFight",
-        time: "2024",
-        company: "FENIX Studios",
-        companyLink: "https://www.fenixstudios.com.au/",
-        categories: ["game"],
-        images: [
-            "assets/images/projects/officefight/officefight-1.jpg",
-            "assets/images/projects/officefight/officefight-2.jpg",
-            "assets/images/projects/officefight/officefight-3.jpg"
-
-        ],
-        video: "https://www.youtube.com/embed/XtftJ78oUgM",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
-        link: "https://store.steampowered.com/app/2747060/Office_Fight/"
-    },
-
-    {
-        title: "Brawlers",
-        time: "2023",
-        company: "FENIX Studios",
-        companyLink: "https://www.fenixstudios.com.au/",
-        categories: ["game"],
-        images: [
-            
-        ],
-        video: "https://vimeo.com/945602189?fl=pl&fe=sh",
-        description: "Brawlers is a live auto-battler built in Unreal Engine that turns meme coin market data into real-time AI combat. Two fighters battle automatically while players place bets on the winner. The game streams from an AWS-hosted Unreal instance and uses WebSockets and HTTP APIs to drive fighters, levels, and AI decisions from live financial data.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Websockets, REST Apis, AWS, RTMP, Perforce",
-        link: "https://vimeo.com/945602189?fl=pl&fe=sh"
-    },
-
-    {
-        title: "Zed Champions",
-        time: "2024",
-        company: "FENIX Studios",
-        companyLink: "https://zedchampions.com/",
-        categories: ["game"],
-        images: [
-        ],
-        video: "https://www.youtube.com/embed/_t9TCwcTQHY",
-        description: "Incollarboration with the VHS team we helped bring Zed into Unreal Engine 5",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
-        link: "https://zedchampions.com/"
     },
     {
         title: "Zero Latency - Space Marine Trailer",
@@ -95,29 +88,57 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/EuBLQKNGT1I",
         description: "This project was a real-time virtual production trailer created for Zero Latency, combining Unreal Engine environments with live-action actors captured on an LED stage. The production used real-time sets and triggered in-world events during filming to allow the director to control scenes live on set.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
-        link: "https://hyperepublic.com/portfolio/masked-wolf-astronaut-in-the-ocean/"
+        responsibilities: "",
+        skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce, Onset Supervisor",
+        link: "https://www.youtube.com/watch?v=EuBLQKNGT1I"
     },
-
     {
-        title: "Imagine",
-        time: "2025",
+        title: "Zed Champions",
+        time: "2024",
         company: "FENIX Studios",
-        companyLink: "https://www.fenixstudios.com.au/",
-        categories: ["film"],
+        companyLink: "https://zedchampions.com/",
+        categories: ["game"],
         images: [
         ],
-        video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
-        description: "Imagine is an animated film project developed at FENIX Studios in collaboration with AIME. I was responsible for building the technical pipeline, and creating real-time tools inside Unreal Engine to improve artist workflows and production efficiency.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Animation, Sequencer",
-        link: "https://imaginefilm.org/"
+        video: "https://www.youtube.com/embed/_t9TCwcTQHY",
+        description: "Incollarboration with the VHS team we helped bring Zed into Unreal Engine 5",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Blueprint, REST apis, RTMP, Web Sockets",
+        link: "https://zedchampions.com/"
+    },
+    {
+        title: "OfficeFight",
+        time: "2024",
+        company: "FENIX Studios",
+        companyLink: "https://www.fenixstudios.com.au/",
+        categories: ["game"],
+        images: [
+        ],
+        video: "https://www.youtube.com/embed/XtftJ78oUgM",
+        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics, Team Management",
+        link: "https://store.steampowered.com/app/2747060/Office_Fight/"
+    },
+    {
+        title: "Brawlers",
+        time: "2023",
+        company: "FENIX Studios",
+        companyLink: "https://www.fenixstudios.com.au/",
+        categories: ["game"],
+        images: [
+            
+        ],
+        video: "https://vimeo.com/945602189?fl=pl&fe=sh",
+        description: "Brawlers is a live auto-battler built in Unreal Engine that turns meme coin market data into real-time AI combat. Two fighters battle automatically while players place bets on the winner. The game streams from an AWS-hosted Unreal instance and uses WebSockets and HTTP APIs to drive fighters, levels, and AI decisions from live financial data.",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Blueprint, Websockets, REST Apis, AWS, RTMP, Perforce",
+        link: "https://vimeo.com/945602189?fl=pl&fe=sh"
     },
 
     {
         title: "La Brea - Season 2",
-        time: "2024",
+        time: "2023",
         company: "FENIX Studios",
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["vp"],
@@ -125,7 +146,7 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/u6PrJtzUKdA",
         description: "Worked on virtual production for the TV series La Brea, creating and maintaining real-time environments for LED volume stages. Provided live technical support to ensure smooth production playback.",
-        responsibilities: "List of responsibilities",
+        responsibilities: "",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
         link: "https://www.youtube.com/watch?v=u6PrJtzUKdA"
     },
@@ -133,24 +154,9 @@ const projects = [
     // --------------------------------------------------------
     // SPECTRE STUDIOS
     // --------------------------------------------------------
-
-     {
-        title: "Emergisim - ADF",
-        time: "2024",
-        company: "FENIX Studios",
-        companyLink: "https://www.fenixstudios.com.au/",
-        categories: ["game"],
-        images: [
-        ],
-        video: "https://www.youtube.com/embed/y2MDTHR9Scw",
-        description: "Taking the existing Emergisim product we were created a military TCCC scenario that followed Military Tactical Combat Casualty Care medical procedures",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
-        link: "https://www.youtube.com/watch?v=y2MDTHR9Scw"
-    },
-     {
+    {
         title: "Human Park",
-        time: "2024",
+        time: "2022",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["game"],
@@ -159,25 +165,25 @@ const projects = [
         ],
         video: "https://vimeo.com/745690780",
         description: "Over the course of a year we built, A configurator so users could design thier own personalised NFTS. A batch rendering system was then created to render and add rarity to each individuals \"NOOD\". Pipelines were created for marketing and trailer content. As well as a social platform for users to join and play utilising their own \"NOOD\" nfts",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Blueprint, REST Apis, Networking, Team Management, Render Pipelines",
         link: "https://vimeo.com/745690780"
     },
-    {
-        title: "Emergisim",
-        time: "2018 - 2023",
-        company: "Spectre Studios",
-        companyLink: "",
-        categories: ["vr"],
-        images: [
 
+     {
+        title: "Emergisim - ADF",
+        time: "2022",
+        company: "FENIX Studios",
+        companyLink: "https://www.fenixstudios.com.au/",
+        categories: ["game"],
+        images: [
         ],
-        video: "https://www.youtube.com/embed/z9bzFkv7_Fo",
-        description: "Virtual reality paramedic training simulation. Built realistic emergency scenarios, interactive medical procedures, and comprehensive training modules to deliver an immersive first-responder training experience.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, C++, VR, Blueprint, Motion Capture",
-        link: null
-    },
+        video: "https://www.youtube.com/embed/y2MDTHR9Scw",
+        description: "Taking the existing Emergisim product we were created a military TCCC scenario that followed Military Tactical Combat Casualty Care medical procedures",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Blueprint",
+        link: "https://www.youtube.com/watch?v=y2MDTHR9Scw"
+    },   
 
     {
         title: "ZedRun",
@@ -189,8 +195,8 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/DICO7y6djug",
         description: "Technical development for ZedRun, a digital horse racing and breeding platform. Worked on real-time race visualisation systems and character and animation pipelines.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, C++, Blueprint, Animation, Real-time Rendering",
+        responsibilities: "",
+        skills: "Unreal Engine 4, C++, Blueprint, Animation, Render Pipelines",
         link: null
     },
 
@@ -199,13 +205,13 @@ const projects = [
         time: "2021",
         company: "Spectre Studios",
         companyLink: "",
-        categories: ["vp"],
+        categories: ["vp", "pipeline"],
         images: [
         ],
         video: "https://www.youtube.com/embed/zq92oNGHr8o",
         description: "Virtual production project for Ford's Auto Nights campaign. Designed and built real-time LED volume environments showcasing Ford vehicles in dynamic, cinematic settings using Unreal Engine.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, Virtual Production, LED Volume, nDisplay, Lighting",
+        responsibilities: "",
+        skills: "Unreal Engine 4, Virtual Production, LED Volume, nDisplay, Onset tools for VP, Perforce",
         link: null
     },
 
@@ -219,14 +225,14 @@ const projects = [
         ],
         video: "https://hyperepublic.com/portfolio/masked-wolf-astronaut-in-the-ocean/",
         description: "Virtual production environment for Masked Wolf's performance segment on The Tonight Show with Jimmy Fallon. Built real-time immersive backdrops and visual effects delivered via LED volume.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, Virtual Production, LED Volume, Real-time VFX",
+        responsibilities: "",
+        skills: "Unreal Engine 4, Virtual Production, LED Volume, Real-time VFX, Onset tools for VP",
         link: null
     },
 
     {
         title: "Project Tyrion",
-        time: "2020 - 2021",
+        time: "2021",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["vr"],
@@ -234,11 +240,10 @@ const projects = [
         ],
         video: "https://x.com/BritishArmy/status/1450824187271131146",
         description: "Virtual reality experience developed at Spectre Studios. Responsible for core VR interaction systems, environment development, and performance optimization for the target VR platforms.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, C++, VR, Blueprint, Interaction Systems",
+        responsibilities: "",
+        skills: "Unreal Engine 4, C++, VR, Blueprint, JALI, Sequencer, Branching Narrative",
         link: null
     },
-
     {
         title: "Lah-Lah",
         time: "2020",
@@ -249,27 +254,57 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/RC2bKp-TrL4",
         description: "Virtual production and film work for the Lah-Lah children's entertainment brand. Developed real-time environments and integrated animation pipelines for the production shoot.",
-        responsibilities: "List of responsibilities",
+        responsibilities: "",
         skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, Greenscreen",
         link: null
     },
     {
+        title: "Emergisim",
+        time: "2019 - 2020",
+        company: "Spectre Studios",
+        companyLink: "",
+        categories: ["vr"],
+        images: [
+
+        ],
+        video: "https://www.youtube.com/embed/z9bzFkv7_Fo",
+        description: "Virtual reality paramedic training simulation. Built realistic emergency scenarios, interactive medical procedures, and comprehensive training modules to deliver an immersive first-responder training experience.",
+        responsibilities: "",
+        skills: "Unreal Engine 4, C++, VR, Blueprint, Motion Capture",
+        link: null
+    },
+    {
         title: "Tales of Aluna",
-        time: "2021 - 2022",
+        time: "2020",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["game"],
         images: [
         ],
         video: "https://www.youtube.com/embed/zaFBQnxlsCs",
-        description: "",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, C++, Blueprint, Animation, Real-time Rendering",
+        description: "This Project was created to assist Tales of Aluna convert 3D Environments into 2d compatible layouts that they could use for production.",
+        responsibilities: "",
+        skills: "Unreal Engine 4, C++, Blueprint, Animation, 2D Camera Pipeline",
         link: "https://www.youtube.com/watch?v=zaFBQnxlsCs"
     },
     {
+        title: "Lah-Lah",
+        time: "2019",
+        company: "Spectre Studios",
+        companyLink: "",
+        categories: ["vp"],
+        images: [
+        ],
+        video: "https://www.youtube.com/embed/RC2bKp-TrL4",
+        description: "Virtual production and film work for the Lah-Lah children's entertainment brand. Developed real-time environments and integrated animation pipelines for the production shoot.",
+        responsibilities: "",
+        skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, Greenscreen",
+        link: null
+    },
+
+    {
         title: "Roborovski",
-        time: "2020",
+        time: "2019",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["film"],
@@ -277,13 +312,13 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/LHsA9oxp2x4",
         description: "Animated film project for Roborovski. Contributed to the real-time rendering pipeline and character animation systems using Unreal Engine as the primary production tool.",
-        responsibilities: "List of responsibilities",
+        responsibilities: "",
         skills: "Unreal Engine 4, Animation, Rendering Pipeline, Sequencer",
         link: null
     },
     {
         title: "Wyrmwood VR",
-        time: "2024",
+        time: "2019",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["game"],
@@ -291,13 +326,13 @@ const projects = [
         ],
         video: "https://vimeo.com/349809923?fl=pl&fe=vl",
         description: "",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        responsibilities: "",
+        skills: "Unreal Engine 4, C++, Blueprint, Sequencer, VR",
         link: "https://vimeo.com/349809923?fl=pl&fe=vl"
     },
     {
         title: "Atmosfear - Character Pipeline",
-        time: "2020",
+        time: "2018",
         company: "Spectre Studios",
         companyLink: "",
         categories: ["pipeline"],
@@ -305,8 +340,8 @@ const projects = [
         ],
         video: "https://www.youtube.com/embed/H7CNn5FSGi0",
         description: "Designed and built the character pipeline for the Atmosfear board game CGI project. Created tooling and workflows covering rigging, animation export, and import into Unreal Engine to streamline the CGI render process.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, Python, Maya API, Pipeline Development, Character Rigging",
+        responsibilities: "",
+        skills: "Unreal Engine 4, Python, Maya tooling, Pipeline Development, Character Rigging, Face AR Kit, Faceware, Alembics",
         link: "https://www.youtube.com/watch?v=H7CNn5FSGi0"
     }
 
@@ -354,7 +389,7 @@ function renderProjects() {
                     <div class="yt-thumbnail">
                         <img src="${ytThumbnail}" alt="Watch ${project.title} on YouTube" onerror="this.style.display='none'">
                         <div class="yt-play-btn"><i class="fa fa-youtube-play"></i></div>
-                        <div class="yt-label"><i class="fa fa-youtube-play"></i> Watch on YouTube</div>
+                        <div class="yt-label"><i class="fa fa-youtube-play"></i> Watch Video</div>
                     </div>
                 </a>`;
         }
