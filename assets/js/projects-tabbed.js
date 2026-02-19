@@ -65,7 +65,7 @@ const projects = [
         categories: ["vp"],
         images: [
         ],
-        video: "https://www.youtube.com/embed?v=EuBLQKNGT1I",
+        video: "https://www.youtube.com/embed/EuBLQKNGT1I",
         description: "This project was a real-time virtual production trailer created for Zero Latency, combining Unreal Engine environments with live-action actors captured on an LED stage. The production used real-time sets and triggered in-world events during filming to allow the director to control scenes live on set.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
@@ -95,7 +95,7 @@ const projects = [
         categories: ["vp"],
         images: [
         ],
-        video: "https://www.youtube.com/embed?v=u6PrJtzUKdA",
+        video: "https://www.youtube.com/embed/u6PrJtzUKdA",
         description: "Worked on virtual production for the TV series La Brea, creating and maintaining real-time environments for LED volume stages. Provided live technical support to ensure smooth production playback.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
@@ -130,10 +130,8 @@ const projects = [
         companyLink: "https://www.facebook.com/specvr/",
         categories: ["game"],
         images: [
-            "assets/images/projects/zedrun/zedrun-1.jpg",
-            "assets/images/projects/zedrun/zedrun-2.jpg"
         ],
-        video: null,
+        video: "https://www.youtube.com/embed/DICO7y6djug",
         description: "Technical development for ZedRun, a digital horse racing and breeding platform. Worked on real-time race visualisation systems and character and animation pipelines.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, C++, Blueprint, Animation, Real-time Rendering",
@@ -147,10 +145,8 @@ const projects = [
         companyLink: "https://www.facebook.com/specvr/",
         categories: ["vp"],
         images: [
-            "assets/images/projects/ford-auto-nights/ford-1.jpg",
-            "assets/images/projects/ford-auto-nights/ford-2.jpg"
         ],
-        video: "https://www.youtube.com/embed?v=zq92oNGHr8o",
+        video: "https://www.youtube.com/embed/zq92oNGHr8o",
         description: "Virtual production project for Ford's Auto Nights campaign. Designed and built real-time LED volume environments showcasing Ford vehicles in dynamic, cinematic settings using Unreal Engine.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Virtual Production, LED Volume, nDisplay, Lighting",
@@ -164,10 +160,8 @@ const projects = [
         companyLink: "https://www.facebook.com/specvr/",
         categories: ["vp"],
         images: [
-            "assets/images/projects/masked-wolf/masked-wolf-1.jpg",
-            "assets/images/projects/masked-wolf/masked-wolf-2.jpg"
         ],
-        video: null,
+        video: "https://hyperepublic.com/portfolio/masked-wolf-astronaut-in-the-ocean/",
         description: "Virtual production environment for Masked Wolf's performance segment on The Tonight Show with Jimmy Fallon. Built real-time immersive backdrops and visual effects delivered via LED volume.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Virtual Production, LED Volume, Real-time VFX",
@@ -196,13 +190,11 @@ const projects = [
         companyLink: "https://www.facebook.com/specvr/",
         categories: ["vp"],
         images: [
-            "assets/images/projects/lah-lah/lah-lah-1.jpg",
-            "assets/images/projects/lah-lah/lah-lah-2.jpg"
         ],
-        video: null,
+        video: "https://www.youtube.com/embed/RC2bKp-TrL4",
         description: "Virtual production and film work for the Lah-Lah children's entertainment brand. Developed real-time environments and integrated animation pipelines for the production shoot.",
         responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, LED Volume",
+        skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, Greenscreen",
         link: null
     },
 
@@ -213,8 +205,6 @@ const projects = [
         companyLink: "https://www.facebook.com/specvr/",
         categories: ["film"],
         images: [
-            "assets/images/projects/roborovski/roborovski-1.jpg",
-            "assets/images/projects/roborovski/roborovski-2.jpg"
         ],
         video: null,
         description: "Animated film project for Roborovski. Contributed to the real-time rendering pipeline and character animation systems using Unreal Engine as the primary production tool.",
@@ -230,8 +220,6 @@ const projects = [
         companyLink: "https://www.facebook.com/specvr/",
         categories: ["pipeline"],
         images: [
-            "assets/images/projects/atmosfear/atmosfear-1.jpg",
-            "assets/images/projects/atmosfear/atmosfear-2.jpg"
         ],
         video: "https://www.youtube.com/embed?v=H7CNn5FSGi0",
         description: "Designed and built the character pipeline for the Atmosfear board game CGI project. Created tooling and workflows covering rigging, animation export, and import into Unreal Engine to streamline the CGI render process.",
@@ -274,10 +262,18 @@ function renderProjects() {
         // Build media (video takes priority over images)
         let videoHTML = '';
         if (project.video) {
+            // Extract video ID from embed URL: "https://www.youtube.com/embed/VIDEO_ID"
+            const ytId = project.video.split('/embed/')[1]?.split('?')[0] || '';
+            const ytWatchUrl = ytId ? `https://www.youtube.com/watch?v=${ytId}` : project.video;
+            const ytThumbnail = ytId ? `https://img.youtube.com/vi/${ytId}/maxresdefault.jpg` : '';
             videoHTML = `
-                <div class="project-video">
-                    <iframe loading="lazy" src="${project.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>`;
+                <a href="${ytWatchUrl}" target="_blank" class="yt-thumbnail-link">
+                    <div class="yt-thumbnail">
+                        <img src="${ytThumbnail}" alt="Watch ${project.title} on YouTube" onerror="this.style.display='none'">
+                        <div class="yt-play-btn"><i class="fa fa-youtube-play"></i></div>
+                        <div class="yt-label"><i class="fa fa-youtube-play"></i> Watch video</div>
+                    </div>
+                </a>`;
         }
         let mediaHTML = '';
 
