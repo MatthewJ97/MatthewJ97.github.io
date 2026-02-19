@@ -358,9 +358,10 @@ const categoryInfo = {
     vr:       { name: "VR",                 color: "category-vr" },
     vp:       { name: "Virtual Production", color: "category-vp" },
     film:     { name: "Film",               color: "category-film" },
-    pipeline: { name: "Pipeline",           color: "category-pipeline" }
+    pipeline: { name: "Pipeline",           color: "category-pipeline" },
+   
 };
-
+//work-in-progress: {name: "WIP", color: "category-"} -->
 // ============================================================
 // RENDER - No need to edit below this line
 // ============================================================
