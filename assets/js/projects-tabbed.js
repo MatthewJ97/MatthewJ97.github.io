@@ -21,7 +21,21 @@ const projects = [
     // --------------------------------------------------------
     // FENIX STUDIOS
     // --------------------------------------------------------
+    {
+        title: "Animo",
+        time: "2024",
+        company: "FENIX Studios",
+        companyLink: "https://animo.gg/#Games",
+        categories: ["game"],
+        images: [
 
+        ],
+        video: "https://x.com/Stake/status/1979306430214676856",
+        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        responsibilities: "List of responsibilities",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        link: "https://animo.gg/#Games"
+    },
     {
         title: "OfficeFight",
         time: "2024",
@@ -35,7 +49,7 @@ const projects = [
 
         ],
         video: "https://www.youtube.com/embed/XtftJ78oUgM",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game. https://www.youtube.com/watch?v=XtftJ78oUgM",
+        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
         link: "https://store.steampowered.com/app/2747060/Office_Fight/"
@@ -50,13 +64,27 @@ const projects = [
         images: [
             
         ],
-        video: null,
+        video: "https://vimeo.com/945602189?fl=pl&fe=sh",
         description: "Brawlers is a live auto-battler built in Unreal Engine that turns meme coin market data into real-time AI combat. Two fighters battle automatically while players place bets on the winner. The game streams from an AWS-hosted Unreal instance and uses WebSockets and HTTP APIs to drive fighters, levels, and AI decisions from live financial data.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Websockets, REST Apis, AWS, RTMP, Perforce",
-        link: null
+        link: "https://vimeo.com/945602189?fl=pl&fe=sh"
     },
 
+    {
+        title: "Zed Champions",
+        time: "2024",
+        company: "FENIX Studios",
+        companyLink: "https://www.fenixstudios.com.au/",
+        categories: ["game"],
+        images: [
+        ],
+        video: "https://www.youtube.com/embed/XtftJ78oUgM",
+        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        responsibilities: "List of responsibilities",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        link: "https://store.steampowered.com/app/2747060/Office_Fight/"
+    },
     {
         title: "Zero Latency - Space Marine Trailer",
         time: "2024",
@@ -106,17 +134,49 @@ const projects = [
     // SPECTRE STUDIOS
     // --------------------------------------------------------
 
+     {
+        title: "Emergisim - ADF",
+        time: "2024",
+        company: "FENIX Studios",
+        companyLink: "https://www.fenixstudios.com.au/",
+        categories: ["game"],
+        images: [
+            "assets/images/projects/officefight/officefight-1.jpg",
+            "assets/images/projects/officefight/officefight-2.jpg",
+            "assets/images/projects/officefight/officefight-3.jpg"
+
+        ],
+        video: "https://www.youtube.com/embed/XtftJ78oUgM",
+        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        responsibilities: "List of responsibilities",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        link: "https://store.steampowered.com/app/2747060/Office_Fight/"
+    },
+     {
+        title: "Human Park",
+        time: "2024",
+        company: "Spectre Studios",
+        companyLink: "",
+        categories: ["game"],
+        images: [
+            
+        ],
+        video: "https://vimeo.com/745690780",
+        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        responsibilities: "List of responsibilities",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        link: "https://vimeo.com/745690780"
+    },
     {
         title: "Emergisim",
         time: "2018 - 2023",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["vr"],
         images: [
-            "assets/images/projects/emergisim/emergisim-1.jpg",
-            "assets/images/projects/emergisim/emergisim-2.jpg"
+
         ],
-        video: null,
+        video: "https://www.youtube.com/embed/z9bzFkv7_Fo",
         description: "Virtual reality paramedic training simulation. Built realistic emergency scenarios, interactive medical procedures, and comprehensive training modules to deliver an immersive first-responder training experience.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, C++, VR, Blueprint, Motion Capture",
@@ -127,7 +187,7 @@ const projects = [
         title: "ZedRun",
         time: "2021 - 2022",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["game"],
         images: [
         ],
@@ -142,7 +202,7 @@ const projects = [
         title: "Ford Auto Nights",
         time: "2021",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["vp"],
         images: [
         ],
@@ -157,7 +217,7 @@ const projects = [
         title: "Masked Wolf - Jimmy Fallon",
         time: "2021",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["vp"],
         images: [
         ],
@@ -187,7 +247,7 @@ const projects = [
         title: "Lah-Lah",
         time: "2020",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["vp"],
         images: [
         ],
@@ -197,31 +257,57 @@ const projects = [
         skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, Greenscreen",
         link: null
     },
-
+    {
+        title: "Tales of Aluna",
+        time: "2021 - 2022",
+        company: "Spectre Studios",
+        companyLink: "",
+        categories: ["game"],
+        images: [
+        ],
+        video: "https://www.youtube.com/embed/zaFBQnxlsCs",
+        description: "",
+        responsibilities: "List of responsibilities",
+        skills: "Unreal Engine 4, C++, Blueprint, Animation, Real-time Rendering",
+        link: "https://www.youtube.com/watch?v=zaFBQnxlsCs"
+    },
     {
         title: "Roborovski",
         time: "2020",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["film"],
         images: [
         ],
-        video: null,
+        video: "https://www.youtube.com/embed/LHsA9oxp2x4",
         description: "Animated film project for Roborovski. Contributed to the real-time rendering pipeline and character animation systems using Unreal Engine as the primary production tool.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Animation, Rendering Pipeline, Sequencer",
         link: null
     },
-
+    {
+        title: "Wyrmwood VR",
+        time: "2024",
+        company: "Spectre Studios",
+        companyLink: "",
+        categories: ["game"],
+        images: [
+        ],
+        video: "https://vimeo.com/349809923?fl=pl&fe=vl",
+        description: "",
+        responsibilities: "List of responsibilities",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        link: "https://vimeo.com/349809923?fl=pl&fe=vl"
+    },
     {
         title: "Atmosfear - Character Pipeline",
         time: "2020",
         company: "Spectre Studios",
-        companyLink: "https://www.facebook.com/specvr/",
+        companyLink: "",
         categories: ["pipeline"],
         images: [
         ],
-        video: "https://www.youtube.com/embed?v=H7CNn5FSGi0",
+        video: "https://www.youtube.com/embed/H7CNn5FSGi0",
         description: "Designed and built the character pipeline for the Atmosfear board game CGI project. Created tooling and workflows covering rigging, animation export, and import into Unreal Engine to streamline the CGI render process.",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 4, Python, Maya API, Pipeline Development, Character Rigging",
