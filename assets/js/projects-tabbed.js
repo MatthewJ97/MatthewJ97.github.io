@@ -23,7 +23,7 @@ const projects = [
     // --------------------------------------------------------
     {
         title: "Animo",
-        time: "2024",
+        time: "2025",
         company: "FENIX Studios",
         companyLink: "https://animo.gg/#Games",
         categories: ["vp"],
@@ -31,9 +31,9 @@ const projects = [
 
         ],
         video: "https://x.com/Stake/status/1979306430214676856",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
-        responsibilities: "List of responsibilities",
-        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
+        description: "This work provided critical development continuity while the core team was on leave, ensuring production progress and system stability were maintained. The focus was on improving performance, usability, and long-term maintainability across both technical systems and character pipelines.",
+        responsibilities: "",
+        skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics, Composure",
         link: "https://animo.gg/#Games"
     },
     {
@@ -57,7 +57,7 @@ const projects = [
 
     {
         title: "Brawlers",
-        time: "2023 - Present",
+        time: "2023",
         company: "FENIX Studios",
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["game"],
@@ -75,15 +75,15 @@ const projects = [
         title: "Zed Champions",
         time: "2024",
         company: "FENIX Studios",
-        companyLink: "https://www.fenixstudios.com.au/",
+        companyLink: "https://zedchampions.com/",
         categories: ["game"],
         images: [
         ],
-        video: "https://www.youtube.com/embed/XtftJ78oUgM",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        video: "https://www.youtube.com/embed/_t9TCwcTQHY",
+        description: "Incollarboration with the VHS team we helped bring Zed into Unreal Engine 5",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
-        link: "https://store.steampowered.com/app/2747060/Office_Fight/"
+        link: "https://zedchampions.com/"
     },
     {
         title: "Zero Latency - Space Marine Trailer",
@@ -141,16 +141,12 @@ const projects = [
         companyLink: "https://www.fenixstudios.com.au/",
         categories: ["game"],
         images: [
-            "assets/images/projects/officefight/officefight-1.jpg",
-            "assets/images/projects/officefight/officefight-2.jpg",
-            "assets/images/projects/officefight/officefight-3.jpg"
-
         ],
-        video: "https://www.youtube.com/embed/XtftJ78oUgM",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        video: "https://www.youtube.com/embed/y2MDTHR9Scw",
+        description: "Taking the existing Emergisim product we were created a military TCCC scenario that followed Military Tactical Combat Casualty Care medical procedures",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
-        link: "https://store.steampowered.com/app/2747060/Office_Fight/"
+        link: "https://www.youtube.com/watch?v=y2MDTHR9Scw"
     },
      {
         title: "Human Park",
@@ -162,7 +158,7 @@ const projects = [
             
         ],
         video: "https://vimeo.com/745690780",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        description: "Over the course of a year we built, A configurator so users could design thier own personalised NFTS. A batch rendering system was then created to render and add rarity to each individuals \"NOOD\". Pipelines were created for marketing and trailer content. As well as a social platform for users to join and play utilising their own \"NOOD\" nfts",
         responsibilities: "List of responsibilities",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics",
         link: "https://vimeo.com/745690780"
@@ -414,7 +410,7 @@ function renderProjects() {
                 <div class="details">
                     ${mediaHTML}
                     <div class="item">
-                        <span class="details">Description:</span> ${project.description}
+                        <span class="details"></span> ${project.description}
                     </div>
                     <div class="item">
                         <span class="details">Skills Used:</span> ${project.skills}
