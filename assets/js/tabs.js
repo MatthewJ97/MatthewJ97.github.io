@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add active class to clicked tab and corresponding content
             this.classList.add('active');
             document.getElementById(`tab-${targetTab}`).classList.add('active');
+           const sections = document.querySelectorAll('#tab-projects .section');
+            sections.forEach(section => {
+            section.style.opacity = '1';
+            section.style.transform = 'translateY(0)';
+            });
             
             // Close mobile menu when tab is clicked
             if (window.innerWidth <= 767) {
@@ -98,7 +103,7 @@ function filterProjects(category) {
         if (category === 'all' || projectCategories.includes(category)) {
             project.classList.remove('hidden');
             // Add fade-in animation
-            project.style.animation = 'fadeIn 0.3s ease-in';
+           // project.style.animation = 'fadeIn 0.3s ease-in forwards';
             visibleCount++;
         } else {
             project.classList.add('hidden');
