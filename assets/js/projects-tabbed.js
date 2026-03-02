@@ -29,7 +29,7 @@ const projects = [
         categories: ["pipeline", "wip"],
         images: [
         ],
-        video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
+        video: "",
         description: "An Application made for editing and privately publishing a book for users to read, The app contains the ability to make comments and highlight sections for the author to see when doing draft edits",
         responsibilities: "",
         skills: "NodeJS, HTML",
@@ -439,6 +439,7 @@ function renderProjects() {
                         <span class="details">Skills Used:</span> ${project.skills}
                     </div>
                 </div><!--//details-->
+                <hr>
             </div><!--//project-item-->`);
     });
 
