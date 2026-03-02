@@ -63,7 +63,7 @@ function resetStatsAnimation() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
-    let currentFilter = 'game';
+    let currentFilter = 'all';
     
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateFilterCounts();
     
     // Apply initial filter (show all projects on page load)
-    filterProjects('game');
+    filterProjects('all');
 });
 
 function filterProjects(category) {

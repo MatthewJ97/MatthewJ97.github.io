@@ -446,13 +446,11 @@ function renderProjects() {
     // Set innerHTML once at the end (much faster than += in loop)
     container.innerHTML = htmlArray.join('');
     
-    // Apply initial filter to show all projects
-    // Use setTimeout to ensure filter buttons are initialized
-    setTimeout(() => {
-        if (typeof filterProjects === 'function') {
-            filterProjects('all');
-        }
-    }, 50);
+
+    // Immediately apply default filter AFTER render
+    if (typeof filterProjects === 'function') {
+    filterProjects('all');
+}
 }
 
 // Show fallback if iframe fails to load
