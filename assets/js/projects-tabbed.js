@@ -30,7 +30,7 @@ const projects = [
         images: [
         ],
         video: "",
-        description: "An Application made for editing and privately publishing a book for users to read, The app contains the ability to make comments and highlight sections for the author to see when doing draft edits",
+        description: "A web-based application designed for drafting, editing, and privately publishing long-form written content. The platform enables structured feedback workflows, allowing readers to highlight passages and leave contextual comments that authors can review during revision cycles. Built to support iterative editing and streamlined collaboration.",
         responsibilities: "",
         skills: "NodeJS, HTML",
         link: "https://imaginefilm.org/"
@@ -44,7 +44,7 @@ const projects = [
         images: [
         ],
         video: "",
-        description: "A Turn Based Strategy game made in Unreal engine 5",
+        description: "A turn-based strategy game developed in Unreal Engine 5. The project focuses on systemic gameplay design, tactical decision-making mechanics, and scalable architecture to support future feature expansion and content iteration.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++",
         link: ""
@@ -58,7 +58,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
-        description: "Imagine is an animated film project developed at FENIX Studios in collaboration with AIME. I was responsible for building the technical pipeline, and creating real-time tools inside Unreal Engine to improve artist workflows and production efficiency.",
+        description: "In collaboration with AIME. An animated film project developed at FENIX Studios in collaboration with AIME. I led the development of the technical pipeline and created real-time production tools within Unreal Engine to enhance artist workflows, improve iteration speed, and increase overall production efficiency.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Animation, Sequencer",
         link: "https://imaginefilm.org/"
@@ -73,7 +73,7 @@ const projects = [
 
         ],
         video: "https://x.com/Stake/status/1979306430214676856",
-        description: "This work provided critical development continuity while the core team was on leave, ensuring production progress and system stability were maintained. The focus was on improving performance, usability, and long-term maintainability across both technical systems and character pipelines.",
+        description: "Delivered critical development continuity during a key production phase, ensuring system stability and uninterrupted progress while core team members were on leave. Focus areas included performance optimisation, workflow improvements, and long-term maintainability across gameplay systems and character pipelines.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics, Composure, Producing, Team Management, Github",
         link: "https://animo.gg/#Games"
@@ -87,7 +87,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/EuBLQKNGT1I",
-        description: "This project was a real-time virtual production trailer created for Zero Latency, combining Unreal Engine environments with live-action actors captured on an LED stage. The production used real-time sets and triggered in-world events during filming to allow the director to control scenes live on set.",
+        description: "A real-time virtual production trailer created for Zero Latency. The project integrated Unreal Engine environments with live-action performers captured on an LED volume stage. Real-time set extensions and triggered in-world events enabled the director to control environmental changes live during filming, streamlining production and creative decision-making.",
         responsibilities: "",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce, Onset Supervisor",
         link: "https://www.youtube.com/watch?v=EuBLQKNGT1I"
@@ -101,7 +101,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/_t9TCwcTQHY",
-        description: "Incollarboration with the VHS team we helped bring Zed into Unreal Engine 5",
+        description: "Developed in collaboration with the VHS team, this project involved integrating the Zed platform into Unreal Engine 5. Responsibilities included implementing backend connectivity via REST APIs, WebSockets, and RTMP pipelines to support real-time data exchange and gameplay functionality.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Blueprint, REST apis, RTMP, Web Sockets",
         link: "https://zedchampions.com/"
@@ -115,7 +115,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/XtftJ78oUgM",
-        description: "You’ve been unfairly laid off by Mega Corp and the news kills you. Literally. As a vengeful spirit, use your ghostly power to fling cups, chairs and tables at your co-workers all in the name of revenge. Start fights and watch the destruction unfold in this casual physics-based destruction game.",
+        description: "A physics-driven action game built in Unreal Engine 5. Players control a vengeful spirit capable of manipulating environmental objects to create large-scale destruction. The project emphasised Chaos Physics integration, systemic object interaction, and scalable gameplay architecture while managing technical direction and team coordination.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Blueprint, Chaos Physics, Team Management",
         link: "https://store.steampowered.com/app/2747060/Office_Fight/"
@@ -130,7 +130,7 @@ const projects = [
             
         ],
         video: "https://vimeo.com/945602189?fl=pl&fe=sh",
-        description: "Brawlers is a live auto-battler built in Unreal Engine that turns meme coin market data into real-time AI combat. Two fighters battle automatically while players place bets on the winner. The game streams from an AWS-hosted Unreal instance and uses WebSockets and HTTP APIs to drive fighters, levels, and AI decisions from live financial data.",
+        description: "A live auto-battler built in Unreal Engine 5 that transforms real-time meme coin market data into AI-driven combat encounters. Two fighters compete autonomously while users place wagers on the outcome. The system streams from an AWS-hosted Unreal instance and leverages WebSockets and HTTP APIs to drive fighter behaviour, progression systems, and AI logic based on live financial inputs.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Blueprint, Websockets, REST Apis, AWS, RTMP, Perforce",
         link: "https://vimeo.com/945602189?fl=pl&fe=sh"
@@ -145,7 +145,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/u6PrJtzUKdA",
-        description: "Worked on virtual production for the TV series La Brea, creating and maintaining real-time environments for LED volume stages. Provided live technical support to ensure smooth production playback.",
+        description: "Contributed to virtual production workflows for Season 2 of La Brea. Developed and maintained real-time environments for LED volume stages and provided on-set technical support to ensure stable playback, synchronisation, and production continuity during filming.",
         responsibilities: "",
         skills: "Unreal Engine 5, VP Pipelines, nDisplay, Real-time VFX, Perforce",
         link: "https://www.youtube.com/watch?v=u6PrJtzUKdA"
@@ -164,7 +164,7 @@ const projects = [
             
         ],
         video: "https://vimeo.com/745690780",
-        description: "Over the course of a year we built, A configurator so users could design thier own personalised NFTS. A batch rendering system was then created to render and add rarity to each individuals \"NOOD\". Pipelines were created for marketing and trailer content. As well as a social platform for users to join and play utilising their own \"NOOD\" nfts",
+        description: "Over a 12-month development cycle, we built a custom NFT configurator enabling users to design personalised digital assets (“NOODs”). I contributed to the development of a batch rendering pipeline that generated large-scale asset variations with embedded rarity systems. Additional pipelines were established for marketing and trailer production, alongside a social platform that allowed users to interact and play using their owned NFT characters.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Blueprint, REST Apis, Networking, Team Management, Render Pipelines",
         link: "https://vimeo.com/745690780"
@@ -179,7 +179,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/y2MDTHR9Scw",
-        description: "Taking the existing Emergisim product we were created a military TCCC scenario that followed Military Tactical Combat Casualty Care medical procedures",
+        description: "Expanded the existing Emergisim platform to develop a military training scenario aligned with Tactical Combat Casualty Care (TCCC) procedures for the Australian Defence Force. The project required adapting core systems to accurately reflect structured military medical workflows within an interactive simulation environment.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Blueprint",
         link: "https://www.youtube.com/watch?v=y2MDTHR9Scw"
@@ -194,7 +194,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/DICO7y6djug",
-        description: "Technical development for ZedRun, a digital horse racing and breeding platform. Worked on real-time race visualisation systems and character and animation pipelines.",
+        description: "Provided technical development for ZedRun, a digital horse racing and breeding platform. Contributed to real-time race visualisation systems, character and animation pipelines, and rendering workflows to support large-scale online events and interactive race broadcasts.",
         responsibilities: "",
         skills: "Unreal Engine 4, C++, Blueprint, Animation, Render Pipelines",
         link: null
@@ -209,7 +209,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/zq92oNGHr8o",
-        description: "Virtual production project for Ford's Auto Nights campaign. Designed and built real-time LED volume environments showcasing Ford vehicles in dynamic, cinematic settings using Unreal Engine.",
+        description: "A virtual production project for Ford’s Auto Nights campaign. Designed and developed real-time LED volume environments in Unreal Engine to showcase Ford vehicles within cinematic, dynamic settings. The work focused on environment optimisation, lighting fidelity, and on-set playback reliability.",
         responsibilities: "",
         skills: "Unreal Engine 4, Virtual Production, LED Volume, nDisplay, Onset tools for VP, Perforce",
         link: null
@@ -224,7 +224,7 @@ const projects = [
         images: [
         ],
         video: "https://hyperepublic.com/portfolio/masked-wolf-astronaut-in-the-ocean/",
-        description: "Virtual production environment for Masked Wolf's performance segment on The Tonight Show with Jimmy Fallon. Built real-time immersive backdrops and visual effects delivered via LED volume.",
+        description: "Delivered real-time virtual production environments for Masked Wolf’s performance on The Tonight Show Starring Jimmy Fallon. Built immersive LED volume backdrops and real-time visual effects to support live broadcast performance requirements with minimal latency and high visual fidelity.",
         responsibilities: "",
         skills: "Unreal Engine 4, Virtual Production, LED Volume, Real-time VFX, Onset tools for VP",
         link: null
@@ -239,7 +239,7 @@ const projects = [
         images: [
         ],
         video: "https://x.com/BritishArmy/status/1450824187271131146",
-        description: "Virtual reality experience developed at Spectre Studios. Responsible for core VR interaction systems, environment development, and performance optimization for the target VR platforms.",
+        description: "Developed a VR training experience focused on immersive interaction and narrative delivery. Responsible for core VR interaction systems, environment development, and performance optimisation across target VR platforms, ensuring stable frame rates and intuitive user engagement.",
         responsibilities: "",
         skills: "Unreal Engine 4, C++, VR, Blueprint, JALI, Sequencer, Branching Narrative",
         link: null
@@ -255,7 +255,7 @@ const projects = [
 
         ],
         video: "https://www.youtube.com/embed/z9bzFkv7_Fo",
-        description: "Virtual reality paramedic training simulation. Built realistic emergency scenarios, interactive medical procedures, and comprehensive training modules to deliver an immersive first-responder training experience.",
+        description: "A virtual reality paramedic training simulation designed to replicate real-world emergency response scenarios. Contributed to the development of interactive medical procedures, scenario logic, and training modules to create an immersive and educational first-responder experience.",
         responsibilities: "",
         skills: "Unreal Engine 4, C++, VR, Blueprint, Motion Capture",
         link: null
@@ -269,7 +269,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/zaFBQnxlsCs",
-        description: "This Project was created to assist Tales of Aluna convert 3D Environments into 2d compatible layouts that they could use for production.",
+        description: "Developed technical workflows to convert 3D environments into 2D-compatible layouts for production use in Toon Boom. Built custom camera and rendering pipelines within Unreal Engine to enable efficient asset reuse and streamline hybrid 2D/3D content creation.",
         responsibilities: "",
         skills: "Unreal Engine 4, C++, Blueprint, Animation, 2D Camera Pipeline",
         link: "https://www.youtube.com/watch?v=zaFBQnxlsCs"
@@ -283,7 +283,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/RC2bKp-TrL4",
-        description: "Virtual production and film work for the Lah-Lah children's entertainment brand. Developed real-time environments and integrated animation pipelines for the production shoot.",
+        description: "Contributed to virtual production workflows for the Lah-Lah children’s entertainment brand. Developed real-time environments and integrated animation pipelines to support live-action production shoots using Unreal Engine.",
         responsibilities: "",
         skills: "Unreal Engine 4, Virtual Production, Animation, Sequencer, Greenscreen",
         link: null
@@ -298,7 +298,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/LHsA9oxp2x4",
-        description: "Animated film project for Roborovski. Contributed to the real-time rendering pipeline and character animation systems using Unreal Engine as the primary production tool.",
+        description: "Animated film project utilising Unreal Engine as the primary real-time rendering platform. Contributed to the rendering pipeline and character animation systems to support efficient iteration and high-quality final output.",
         responsibilities: "",
         skills: "Unreal Engine 4, Animation, Rendering Pipeline, Sequencer",
         link: null
@@ -312,7 +312,7 @@ const projects = [
         images: [
         ],
         video: "https://vimeo.com/349809923?fl=pl&fe=vl",
-        description: "",
+        description: "A VR experience developed in Unreal Engine 4. Contributed to gameplay systems, interactive sequences, and performance optimisation to deliver an immersive real-time virtual reality experience.",
         responsibilities: "",
         skills: "Unreal Engine 4, C++, Blueprint, Sequencer, VR",
         link: "https://vimeo.com/349809923?fl=pl&fe=vl"
@@ -326,7 +326,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/H7CNn5FSGi0",
-        description: "Designed and built the character pipeline for the Atmosfear board game CGI project. Created tooling and workflows covering rigging, animation export, and import into Unreal Engine to streamline the CGI render process.",
+        description: "Designed and implemented the end-to-end character pipeline for the Atmosfear CGI board game project. Developed custom tooling for rigging, animation export, and Unreal Engine integration, streamlining the render workflow and improving cross-department efficiency. The pipeline incorporated Maya tooling, facial capture systems, and Alembic workflows to support high-quality character performance.",
         responsibilities: "",
         skills: "Unreal Engine 4, Python, Maya tooling, Pipeline Development, Character Rigging, Face AR Kit, Faceware, Alembics",
         link: "https://www.youtube.com/watch?v=H7CNn5FSGi0"
