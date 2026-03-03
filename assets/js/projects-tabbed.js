@@ -265,7 +265,7 @@ const projects = [
         time: "2019",
         company: "Spectre Studios",
         companyLink: "",
-        categories: ["game"],
+        categories: ["pipeline", "film"],
         images: [
         ],
         video: "https://www.youtube.com/embed/zaFBQnxlsCs",
@@ -308,7 +308,7 @@ const projects = [
         time: "2019",
         company: "Spectre Studios",
         companyLink: "",
-        categories: ["game"],
+        categories: ["game", "vr"],
         images: [
         ],
         video: "https://vimeo.com/349809923?fl=pl&fe=vl",
