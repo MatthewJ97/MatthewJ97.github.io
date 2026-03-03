@@ -58,7 +58,7 @@ const projects = [
         images: [
         ],
         video: "https://www.youtube.com/embed/Etv4_oBiYxM?si=OV-ocGXGEcuECAmg",
-        description: "In collaboration with AIME. An animated film project developed at FENIX Studios in collaboration with AIME. I led the development of the technical pipeline and created real-time production tools within Unreal Engine to enhance artist workflows, improve iteration speed, and increase overall production efficiency.",
+        description: "In collaboration with AIME. An animated film project developed at FENIX Studios in collaboration with AIME. I led the development of the technical pipeline tools and created real-time production tools within Unreal Engine to enhance artist workflows, improve iteration speed, and increase overall production efficiency.",
         responsibilities: "",
         skills: "Unreal Engine 5, C++, Animation, Sequencer",
         link: "https://imaginefilm.org/"
